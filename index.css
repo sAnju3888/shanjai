@@ -49,6 +49,14 @@ margin-right: -100px;
     margin-top:10px;
     margin-left:60px;
 }
+.thumb{
+    position: relative;
+    display:inline;
+    border:2px solid red;
+    margin-left:1900px;
+    top:-310px;
+    border-radius: 7%;
+}
 .ok{
     height:800px;
 }
@@ -70,12 +78,15 @@ margin-right: -100px;
 .drop{
     font-size: 30px;
 }
+
+
 #pic_prod{
     border-radius: 7%;
     border:5px solid white;
     margin-top:65px;
     margin-bottom:8px;
 }
+
 .main{
     display:flex;
     justify-content:space-evenly;
