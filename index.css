@@ -1,128 +1,116 @@
-*{
-    margin:0;
+* {
+    margin: 0;
 }
-body{
-    background:linear-gradient(#EF7F74,#F6D694);
-    
+
+body {
+    background: linear-gradient(#EF7F74, #F6D694);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.header a{
+
+.header a {
     text-decoration: none;
-    color:#DBE1E8;
+    color: #DBE1E8;
 }
-.header{
-  
-    display:flex;
-    justify-content:space-around;
-    color:#DBE1E8;
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    color: #DBE1E8;
     background-color: #12181b;
-
-
 }
-.header li{
-    margin-top:30px;
+
+.header li {
+    margin-top: 10px;
     list-style-type: none;
-    font-size:43px;
+    font-size: 16px; /* Adjusted font size for better mobile compatibility */
 }
 
-.header a:hover{
-    color:#22C55E;
-    border:2px solid #22C55E;
-    height: 40px;
-    padding:10px;
-    border-radius:6px;
-    font-weight:bolder
+.header a:hover {
+    color: #22C55E;
+    border: 2px solid #22C55E;
+    height: auto;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bolder;
 }
-#profile-pic{
-width:100px;
-border-radius:50%;
-margin-right: -100px;
-}
-@font-face {
-    src: url("Cubano-Regular.otf");
-    font-family: Cubano-Regular;
 
+#profile-pic {
+    width: 50px; /* Adjusted profile picture size for better mobile compatibility */
+    border-radius: 50%;
+    margin-right: -50px;
 }
-.name{
 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 3.15rem;
-    margin-top:10px;
-    margin-left:60px;
+.name {
+    font-size: 1.5rem; /* Adjusted font size for better mobile compatibility */
+    margin-top: 10px;
+    margin-left: 10px; /* Adjusted margin for better mobile compatibility */
 }
-.thumb{
+
+.thumb {
     position: relative;
-    display:inline;
-    border:2px solid red;
-    margin-left:1900px;
-    top:-310px;
+    display: inline;
+    border: 2px solid red;
+    margin-left: 10px; /* Adjusted margin for better mobile compatibility */
+    margin-top: 10px; /* Adjusted margin for better mobile compatibility */
     border-radius: 7%;
 }
-.ok{
-    height:800px;
-}
-#product{
 
-    width:500px;
-    display:flex;
+.ok {
+    height: auto; /* Adjusted height for better mobile compatibility */
+}
+
+#product {
+    width: 90%; /* Adjusted width for better mobile compatibility */
+    max-width: 500px; /* Added max-width for better mobile compatibility */
+    display: flex;
     justify-content: center;
-    border:10px solid white;
+    border: 10px solid white;
     background: #a8dadc;
-    margin:110px auto 0px;
+    margin: 10px auto 0;
     border-radius: 15px;
-
 }
-.quotes{
-    padding-top:90px;
+
+.quotes {
+    padding-top: 10px; /* Adjusted padding for better mobile compatibility */
     text-align: center;
 }
-.drop{
-    font-size: 30px;
+
+.drop {
+    font-size: 20px; /* Adjusted font size for better mobile compatibility */
 }
 
-
-#pic_prod{
+#pic_prod {
     border-radius: 7%;
-    border:5px solid white;
-    margin-top:65px;
-    margin-bottom:8px;
+    border: 5px solid white;
+    margin-top: 10px; /* Adjusted margin for better mobile compatibility */
+    margin-bottom: 5px; /* Adjusted margin for better mobile compatibility */
 }
 
-.main{
-    display:flex;
-    justify-content:space-evenly;
+.main {
+    flex-direction: column; /* Changed flex direction for better mobile compatibility */
     text-align: center;
-    border:2px solid white;
-    background:white;
-    margin-top:-360px;
-    font-family: "Internacional W05 Black";
+    border: 2px solid white;
+    background: white;
+    margin-top: 10px; /* Adjusted margin for better mobile compatibility */
 }
 
-@font-face {
-    font-family: "Internacional W05 Black";
-    src: url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.eot");
-    src: url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.svg#Internacional W05 Black")format("svg");
+.main h1 {
+    font-size: 25px; /* Adjusted font size for better mobile compatibility */
+    margin-top: 10px; /* Adjusted margin for better mobile compatibility */
 }
-.main h1{
-    font-size:55px;
+
+.main h3 {
+    font-size: 18px; /* Adjusted font size for better mobile compatibility */
 }
-.main h3{
-    font-size:33px;
+
+.main span {
+    color: #0B5CFF;
 }
-.main span{
-    color:#0B5CFF;
+
+.a_main h1 {
+    margin-top: 15px; /* Adjusted margin for better mobile compatibility */
 }
-.a_main h1{
-    margin-top:45px;
+
+.b_main h1 {
+    margin-top: 15px; /* Adjusted margin for better mobile compatibility */
 }
-.b_main h1{
-    margin-top:50px;
-}
-/* later */
-/* .footer{
-    background:black;
-    height:900px;
-} */
