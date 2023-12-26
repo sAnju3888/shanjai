@@ -1,116 +1,92 @@
-* {
-    margin: 0;
-}
-
 body {
-    background: linear-gradient(#EF7F74, #F6D694);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:linear-gradient(#EF7F74,#F6D694);
+    
 }
 
-.header a {
-    text-decoration: none;
-    color: #DBE1E8;
+.ok{
+
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+   
 }
 
-.header {
-    display: flex;
-    justify-content: space-around;
-    color: #DBE1E8;
-    background-color: #12181b;
+
+.ok{
+    height:900px;
 }
 
-.header li {
-    margin-top: 10px;
-    list-style-type: none;
-    font-size: 16px; /* Adjusted font size for better mobile compatibility */
-}
-
-.header a:hover {
-    color: #22C55E;
-    border: 2px solid #22C55E;
-    height: auto;
-    padding: 10px;
-    border-radius: 6px;
-    font-weight: bolder;
-}
-
-#profile-pic {
-    width: 50px; /* Adjusted profile picture size for better mobile compatibility */
-    border-radius: 50%;
-    margin-right: -50px;
-}
-
-.name {
-    font-size: 1.5rem; /* Adjusted font size for better mobile compatibility */
-    margin-top: 10px;
-    margin-left: 10px; /* Adjusted margin for better mobile compatibility */
-}
-
-.thumb {
-    position: relative;
-    display: inline;
-    border: 2px solid red;
-    margin-left: 10px; /* Adjusted margin for better mobile compatibility */
-    margin-top: 10px; /* Adjusted margin for better mobile compatibility */
+.thumb{
+    display:inline;
     border-radius: 7%;
+    margin-bottom: 300px;
+    border:5px solid red;
+
 }
 
-.ok {
-    height: auto; /* Adjusted height for better mobile compatibility */
-}
+#product{
 
-#product {
-    width: 90%; /* Adjusted width for better mobile compatibility */
-    max-width: 500px; /* Added max-width for better mobile compatibility */
-    display: flex;
+    width:500px;
+    display:flex;
     justify-content: center;
-    border: 10px solid white;
+    border:10px solid white;
     background: #a8dadc;
-    margin: 10px auto 0;
     border-radius: 15px;
-}
+    margin-bottom: 300px;
 
-.quotes {
-    padding-top: 10px; /* Adjusted padding for better mobile compatibility */
+}
+.quotes{
+    padding-top:90px;
     text-align: center;
 }
-
-.drop {
-    font-size: 20px; /* Adjusted font size for better mobile compatibility */
+.drop{
+    font-size: 30px;
 }
 
-#pic_prod {
+
+#pic_prod{
     border-radius: 7%;
-    border: 5px solid white;
-    margin-top: 10px; /* Adjusted margin for better mobile compatibility */
-    margin-bottom: 5px; /* Adjusted margin for better mobile compatibility */
+    border:5px solid white;
+    margin-top:65px;
+    margin-bottom:8px;
 }
 
-.main {
-    flex-direction: column; /* Changed flex direction for better mobile compatibility */
+.main{
+    display:flex;
+    justify-content:space-evenly;
     text-align: center;
-    border: 2px solid white;
-    background: white;
-    margin-top: 10px; /* Adjusted margin for better mobile compatibility */
+    border:2px solid white;
+    background:white;
+    margin-top:-360px;
+    font-family: "Internacional W05 Black";
 }
 
-.main h1 {
-    font-size: 25px; /* Adjusted font size for better mobile compatibility */
-    margin-top: 10px; /* Adjusted margin for better mobile compatibility */
+@font-face {
+    font-family: "Internacional W05 Black";
+    src: url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.eot");
+    src: url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.svg#Internacional W05 Black")format("svg");
 }
-
-.main h3 {
-    font-size: 18px; /* Adjusted font size for better mobile compatibility */
+.main h1{
+    font-size:55px;
 }
-
-.main span {
-    color: #0B5CFF;
+.main h3{
+    font-size:33px;
 }
-
-.a_main h1 {
-    margin-top: 15px; /* Adjusted margin for better mobile compatibility */
+.main span{
+    color:#0B5CFF;
 }
-
-.b_main h1 {
-    margin-top: 15px; /* Adjusted margin for better mobile compatibility */
+.a_main h1{
+    margin-top:45px;
 }
+.b_main h1{
+    margin-top:50px;
+}
+/* later */
+/* .footer{
+    background:black;
+    height:900px;
+} */
