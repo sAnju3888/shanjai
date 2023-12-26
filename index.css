@@ -1,29 +1,57 @@
-body {
+*{
+    margin:0;
+}
+body{
     background:linear-gradient(#EF7F74,#F6D694);
     
 }
-
-.ok{
-
+.header a{
+    text-decoration: none;
+    color:#DBE1E8;
+}
+.header{
+  
     display:flex;
-    align-items: center;
     justify-content:space-around;
-   
+    color:#DBE1E8;
+    background-color: #12181b;
+
+
+}
+.header li{
+    margin-top:30px;
+    list-style-type: none;
+    font-size:43px;
 }
 
+.header a:hover{
+    color:#22C55E;
+    border:2px solid #22C55E;
+    height: 40px;
+    padding:10px;
+    border-radius:6px;
+    font-weight:bolder
+}
+#profile-pic{
+width:100px;
+border-radius:50%;
+margin-right: -100px;
+}
+@font-face {
+    src: url("Cubano-Regular.otf");
+    font-family: Cubano-Regular;
 
+}
+.name{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.15rem;
+    margin-top:10px;
+    margin-left:60px;
+}
 .ok{
-    height:900px;
+    height:800px;
 }
-
-.thumb{
-    display:inline;
-    border-radius: 7%;
-    margin-bottom: 300px;
-    border:5px solid red;
-
-}
-
 #product{
 
     width:500px;
@@ -31,8 +59,8 @@ body {
     justify-content: center;
     border:10px solid white;
     background: #a8dadc;
+    margin:110px auto 0px;
     border-radius: 15px;
-    margin-bottom: 300px;
 
 }
 .quotes{
@@ -42,15 +70,12 @@ body {
 .drop{
     font-size: 30px;
 }
-
-
 #pic_prod{
     border-radius: 7%;
     border:5px solid white;
     margin-top:65px;
     margin-bottom:8px;
 }
-
 .main{
     display:flex;
     justify-content:space-evenly;
