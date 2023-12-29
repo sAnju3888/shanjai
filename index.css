@@ -5,6 +5,8 @@ body{
     background:linear-gradient(#EF7F74,#F6D694);
     
 }
+
+/* nav bar */
 .header a{
     text-decoration: none;
     color:#DBE1E8;
@@ -50,20 +52,23 @@ margin-right: -100px;
 
     margin-left:6rem;
 }
+
+/* both pic zone space*/
 .ok{
     height:800px;   
 }
+/* Bruce lee edit*/
 #product{
 
-    width:500px;
+    width:450px;
     display:flex;
     justify-content: center;
     border:10px solid white;
     background: #a8dadc;
-    margin:110px auto 0px;
-    border-radius: 15px;
-    margin-left: 50%;
-
+    border-radius: 5%;
+   position:relative;
+   margin-left:50%;
+   margin-top:5%;
 
 }
 .quotes{
@@ -78,7 +83,8 @@ margin-right: -100px;
     border:5px solid white;
     margin-top:65px;
     margin-bottom:8px;
-}
+/*  */
+
 .main{
     display:flex;
     justify-content:space-evenly;
@@ -88,13 +94,14 @@ margin-right: -100px;
     margin-top:-360px;
     font-family: "Internacional W05 Black";
 }
+
+/*scam video*/
 .thumb {
   position:absolute;
-  
-  margin-left: 5%;
+  margin-left: 4%;
   margin-top: -20rem;
- 
-  scale:1.2;
+  border-radius: 5%;
+  
 }
 @font-face {
     font-family: "Internacional W05 Black";
@@ -105,6 +112,7 @@ margin-right: -100px;
     url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/28c0fa4aeac7eb2cb7c34c37298331ff.svg#Internacional W05 Black")format("svg");
 }
+/* bottom ads*/
 .main h1{
     font-size:55px;
 }
@@ -125,3 +133,25 @@ margin-right: -100px;
     background:black;
     height:900px;
 } */
+
+
+/* Animation for Product Image */
+#product  {
+    transition: transform 0.5s ease-in-out;
+}
+
+#product:hover {
+    transform: scale(1.1); /* Increase the scale on hover */
+}
+
+/* Animation for Thumbnail Video */
+.thumb  {
+    transition: transform 0.5s ease-in-out;
+}
+
+.thumb:hover {
+    transform: scale(1.1); /* Increase the scale on hover */
+}
+
+
+
