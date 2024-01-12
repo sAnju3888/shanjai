@@ -63,7 +63,7 @@ input[type="checkbox"] {
       
     }
     nav{
-        width: 100%;
+        width: 60vh;
     }
     ul {
       font-size: 1.2em;
@@ -93,6 +93,7 @@ input[type="checkbox"] {
     }
     .main{
         flex-direction: column;
+       
     }
     #product{
         margin-top:-200px;
