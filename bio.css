@@ -62,3 +62,40 @@ body{
 
 
   }
+
+  @media screen and (max-width: 600px) {
+    .profile{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:-150px;
+        width:50%;
+    
+    }
+    .container{
+        width:70%;
+       height:1500px;
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        padding:10px;
+    }
+
+    .bio{
+        width: 200px;
+        height:250px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 260px;
+    }
+
+    .qr{
+        margin-top: 20em;
+        margin-left:auto;
+        margin-right:auto;
+        width:50%;
+    }
+
+  }
