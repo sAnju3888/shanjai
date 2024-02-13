@@ -193,7 +193,7 @@ margin:0px;
 }
 .thumb {
   border-radius: 7%;
-  scale:1.5;
+  width:600px;
   margin-top:30px;
 }
 @font-face {
