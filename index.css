@@ -97,6 +97,8 @@ input[type="checkbox"] {
     }
     #product{
         margin-top:-200px;
+        width:480px;
+        margin-left:10px;
        
     }
     .thumb{
