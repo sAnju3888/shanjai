@@ -28,13 +28,16 @@ nav li{
     list-style-type: none;
     font-size:43px;
 }
-
+.main{
+    background-color: white;
+    width: 100%;
+}
 
 
 ul {
     list-style: none;
     display: flex;
-    gap: 4em;
+    gap: 1em;
   }
   ul a {
     padding: 0.5em;
@@ -144,6 +147,12 @@ margin:0px;
 }
 /* Till this is for Nav bar */
 
+
+#product img{
+    width:15em;
+ 
+}
+
 #product{
     
     display:flex;
@@ -151,13 +160,9 @@ margin:0px;
     border:10px solid white;
     background: #a8dadc;
     border-radius: 15px;
-    width: 550px;
+    width: 350px;
     height:400px;
 
- 
-}
-#product img{
-    width:15em;
  
 }
 .quotes{
